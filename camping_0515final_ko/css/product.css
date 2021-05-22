@@ -1,0 +1,42 @@
+tr td,
+tr th {
+  text-align: center;
+  height: 50px;
+}
+input {
+  line-height: 30px;
+  border-radius: 5px;
+  border: 1px solid #777;
+}
+.s2 {
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #777;
+}
+.ck {
+  width: 20px;
+  height: 20px;
+}
+
+.inline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.inline_bk {
+  display: inline;
+}
+
+.w_input {
+  width: 100%;
+}
+
+.right {
+  float: right;
+  margin-right: 180px;
+}
+table {
+  width: 100%;
+}
