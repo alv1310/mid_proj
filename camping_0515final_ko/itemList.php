@@ -62,18 +62,18 @@ require_once './templates/tittle.php';
                                 </a>
                                 <div class="card-body">
                                     <p class="card-text list-item-card"><b><?php echo $arr[$i]['aTitle'] ?></b></p>
-                                    <small>test content</small>
+                                    <small>article test content</small>
 
                                     <!-- <p>加入預覽文字 多餘隱藏... class 設.txt-line-clamp3 </p> -->
                                     <div class="d-flex">
-                                        <a class="btn btn-outline-warning ml-auto mb-3" href="./itemDetail.php?aId=<?php echo $arr[$i]['aId']; ?>" role="button">看更多</a>
+                                        <a class="btn btn-outline-warning ml-auto mb-3" href="./itemDetail.php?aId=<?php echo $arr[$i]['aId']; ?>" role="button">看更多 + </a>
                                     </div>
 
                                     <div class="d-flex justify-content-between align-items-center">
 
                                         <small class="text-muted">By <?php echo $arr[$i]['author'] ?></small>
 
-                                        <small class="text-muted">發布日期：<?php echo $arr[$i]['aDate'] ?></small>
+                                        <small class="text-muted">發布日期  <?php echo $arr[$i]['aDate'] ?></small>
 
                                     </div>
                                 </div>

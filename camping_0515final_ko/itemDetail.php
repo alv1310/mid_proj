@@ -66,7 +66,7 @@ require_once './templates/tittle.php';
                                 <p><?php echo $arrItem["aContent"] ?></p>
 
                                 <!-- tags標籤顯示名稱 -->
-                                <label class="text-primary font-weight-bold">Popular Tags</label><br>
+                                <label class="text-primary font-weight-bold">Check These Tags</label><br>
 
                                 <?php
                                 $sql = "SELECT `articlelist`.`aId`, `ataglist`.`tagName`,`atagmap`.`tagId`
