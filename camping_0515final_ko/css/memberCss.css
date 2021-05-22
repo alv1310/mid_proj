@@ -1,0 +1,32 @@
+.w-350 {
+  width: 350px;
+}
+.w-100 {
+  width: 100px;
+}
+.w-200 {
+  width: 200px;
+}
+.w-50 {
+  width: 30px;
+}
+.h {
+  height: 1000px;
+}
+.bgg {
+  /* background-color: rgb(255, 246, 225); */
+  border-radius: 5px;
+}
+.heroSection {
+  background: url(../images/heroSection.jpg) no-repeat;
+  background-size: auto;
+  background-position: 5% 94%;
+}
+
+.logo,
+.logo:hover,
+.logo:visited,
+.logo:active {
+  color: #ffd700;
+  text-decoration: none;
+}
